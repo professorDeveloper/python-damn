@@ -1,14 +1,16 @@
-num = input("Enter a num:")
 
-if int(num) % 2 == 0:
-    print("Juft")
-else:
-    print("Toq")
+#Task2  Day-2
+
+Men_PDP_Talabasiman ="Hello Talaba"
+print (Men_PDP_Talabasiman)
 
 
-nums = [2,4,5,6,7,7]
+talaba ="Hello I am Student"
+print(talaba)
+talaba ="18"
+print(talaba)
 
-for num in nums:
-    print(num)
-    if num % 2 != 0:
-        print(num)
+result =talaba+Men_PDP_Talabasiman
+print(result)
+
+print(len(result))
