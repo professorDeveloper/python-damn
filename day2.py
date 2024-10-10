@@ -16,9 +16,15 @@ print(name)
 #task3
 name =input ('Enter your name: ')
 age =input("Enter your age:")
-
+temp =""
 temp =name
-name =age
-age =temp
-
 print(f"Your Name : {name} ,Your Age :{age}")
+
+#4
+symbol =input("Enter symbol:")
+result = f"""
+        {symbol}
+       {symbol}{symbol}{symbol}
+      {symbol}{symbol}{symbol}{symbol}{symbol}
+     {symbol}{symbol}{symbol}{symbol}{symbol}{symbol}{symbol}
+"""
