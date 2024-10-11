@@ -34,6 +34,9 @@
 # indexing =accessing elements of a  sequence using [] indexing operator
 #                       [start : end : step]
 
+name ="salom"
+name =input("entery your name :")
+
 card_number ="123456789023"
 
 # print(card_number[0:4])
