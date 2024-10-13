@@ -43,6 +43,21 @@ data = " Hello World "
 print(data.strip())
 
 
+# task 5
+userName =input("Enter your name: ")
+uperName = userName.upper()
+print(uperName)
+capitalizeName = uperName.capitalize()
+print(capitalizeName)
 
 
+# task 6
+a = float(input("Birinchi sonni kiriting: "))
+b = float(input("Ikkinchi sonni kiriting: "))
+
+print("Qo'shish: ", a + b)
+print("Ayirish: ", a - b)
+print("Ko'paytirish: ", a * b)
+print("Bo'lish: ", a / b)
+print("Darajaga ko'tarish: ", a ** b)
 
