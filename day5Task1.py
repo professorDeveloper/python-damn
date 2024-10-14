@@ -8,4 +8,4 @@ print(userName.capitalize()) # 1-harf yoki raqam ya`ni belgini katta harf qilshg
 
 
 print(15/10)
-print(15//10)
+print(15!=10)
