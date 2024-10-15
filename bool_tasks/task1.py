@@ -25,3 +25,9 @@ s = a * b
 
 print(f"P = {p}")
 print(f"Area = {s}")
+
+
+def printF(name): print(f"Hello {name}")
+
+
+printF("1")
