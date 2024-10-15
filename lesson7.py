@@ -74,3 +74,5 @@ ishchiSoni = int(input("Ishchilar count:"))  # 10
 result = (soniProduct / ishchiSoni) / 8
 
 print(f"1 soatda mahsulot : {result}")
+
+# tomorrow  we learn list
