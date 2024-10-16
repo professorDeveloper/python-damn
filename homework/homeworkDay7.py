@@ -5,3 +5,5 @@ onlar = number // 10 % 10
 yuzlar = number // 100 % 10
 minglar = number // 1000 % 10
 print(f"{minglar},{yuzlar},{onlar},{birlar}")
+
+
