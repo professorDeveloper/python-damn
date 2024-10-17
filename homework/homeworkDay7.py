@@ -7,3 +7,4 @@ minglar = number // 1000 % 10
 print(f"{minglar},{yuzlar},{onlar},{birlar}")
 
 
+
