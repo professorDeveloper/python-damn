@@ -15,7 +15,7 @@ print(nums2)
 # Task3
 # Remove  3:5 Items from List
 nums3 = [1, 2, 3, 4, 5, 6, 7]
-del (nums3[3:5])
+del (nums3[3:6])
 print(nums3)
 
 # Task4
