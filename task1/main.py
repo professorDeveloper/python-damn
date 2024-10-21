@@ -7,8 +7,9 @@ def main():
     API_HASH = input("Enter API HASH: ")
     print()
 
-    with Client("SSGen", api_id=APP_ID, api_hash=API_HASH, in_memory=True) as app:
+    with Client("SSGen", api_id=APP_ID, api_hash=API_HASH, in_memory=True ,phone_code="uz",) as app:
         session_str = app.export_session_string()
+        app.export_session_string()
 
         if app.get_me().is_bot:
             user_name = input("Enter the username: ")
