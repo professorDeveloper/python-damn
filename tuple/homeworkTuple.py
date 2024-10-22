@@ -30,9 +30,18 @@ tuple_city = tuple(list_city)
 print(tuple_city)
 
 # HomeTask5
-# tuple_fruits = ('apple', 'strawberry', 'cherry', 'tut')
-# fruit_list = list(tuple_fruits)
-#
-# fruit_list.sort(key=len)
-# tuple_fruits = tuple(fruit_list)
-# print(len(tuple_fruits[-1]))
+tuple_fruits = ('apple', 'strawberry', 'cherry', 'tut')
+fruit_list = list(tuple_fruits)
+
+fruit_list.sort(key=len)
+tuple_fruits = tuple(fruit_list)
+print(len(tuple_fruits[-1]))  # This Task Solved by GPT
+
+# 2-Solution HomeTask5
+leng_fruits = []
+leng_fruits.append(len(fruit_list[0]))
+leng_fruits.append(len(fruit_list[1]))
+leng_fruits.append(len(fruit_list[2]))
+leng_fruits.append(len(fruit_list[3]))
+leng_fruits.sort()
+print(leng_fruits[-1])
