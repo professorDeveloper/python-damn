@@ -75,8 +75,9 @@ print(ages)
 # Task11
 nums = [12, 1, 2, 2, 3, 2, 4, 2, 2]
 nums.sort()
+firstIndex = nums.index(2)
 lastIndex = nums.count(2)
-nums = nums[lastIndex::]
+del nums[firstIndex:firstIndex + lastIndex - 1]
 print(nums[::-1])
 
 # Task12
@@ -104,3 +105,15 @@ my_list[0] = my_tuple[0]
 listTup = list(my_tuple)
 listTup[0] = temp
 my_tuple = tuple(listTup)
+
+# false  yoki false va   true  =false
+
+#  A = false ,B =false  ,c =true  d =false
+
+# false  va  true  yoki true   =true  va false =false
+
+
+a = 5 != 5 #false
+b =False
+c =14//4
+print(c)
