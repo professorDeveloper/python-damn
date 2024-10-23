@@ -80,9 +80,27 @@ nums = nums[lastIndex::]
 print(nums[::-1])
 
 # Task12
-numbers_tuple =(10,50,25,5,100,75)
-numbers_list =list(numbers_tuple)
+numbers_tuple = (10, 50, 25, 5, 100, 75)
+numbers_list = list(numbers_tuple)
 numbers_list.sort()
-numbers_tuple =numbers_list
+numbers_tuple = numbers_list
 print(numbers_tuple[0])
 print(numbers_tuple[-1])
+
+# Task13
+my_list = [1, 2, 3, 4, 56]
+
+# Task14
+alphabet = ('a', 'b', 'c', 'd')
+alphabet_list = list(alphabet)
+alphabet_list = alphabet_list[0:3]
+print(alphabet_list)
+
+# Task15
+my_list = [10, 20, 30]
+my_tuple = (40, 50, 60)
+temp = my_list[0]
+my_list[0] = my_tuple[0]
+listTup = list(my_tuple)
+listTup[0] = temp
+my_tuple = tuple(listTup)
