@@ -5,8 +5,8 @@ if num1 < 0 or num2 < 0:
     print(True)
 
 # Task2
-if (num1 < 0 < num2) or (num1 > 0 > num2):
-    print(True)  ##  - +   yoki + -
+if (num1 < 0 < num2) or (num1 > 0       > num2):
+    print(True)  # - +   yoki + -
 
 # Task2 Rewrite Clean Code
 num1 = float(input("number1: "))
@@ -53,5 +53,3 @@ if num1 > num2:
     print(f"{num1}  katta {num2} dan")
 else:
     print(f"{num2}  katta {num1} dan")
-
-
