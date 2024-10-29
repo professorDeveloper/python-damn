@@ -23,8 +23,8 @@ k =int (input("Foizni kiriting: ")) # k=60
 d = int(input("Masofani kiriting: ")) # D=150
 
 
-powerPercent = (k*100)//40
-if powerPercent >=d :
+powerPercent = (k*100)//40 # foiz to  Km
+if powerPercent >=d :  # Asosiy - foizKm
     print("Quvvat Yetarli")
 else:
     ortiqchaMasofa =d-powerPercent # 100
