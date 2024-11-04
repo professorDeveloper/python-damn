@@ -17,19 +17,28 @@ print(sum)
 # Task4
 sum = 1
 for i in range(1, 4):
-
     sum = sum * i
 print(f"Ko`paytiruv :{sum}")
 
 # Task5
 sum = 0
-for i in range(0, 101,2):
+for i in range(0, 101, 2):
     sum = sum + i
 print(sum)
 
 # Task6
 sum = 0
-for i in range(1, 101,2):
+for i in range(1, 101, 2):
     sum = sum + i
 print(sum)
 
+# Task7
+count = 0
+for i in range(0, 1001, 2):
+    count += count + 1
+print(count)
+
+count = 0
+for i in range(1, 10001, 2):
+    count += count + 1
+print(count)
