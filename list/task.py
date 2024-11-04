@@ -34,11 +34,13 @@ print(sum)
 
 # Task7
 count = 0
-for i in range(0, 1001, 2):
-    count += count + 1
+for i in range(1, 11, 2):
+    count += 1
+
 print(count)
 
 count = 0
-for i in range(1, 10001, 2):
-    count += count + 1
+for i in range(1, 11, 2):
+    count = count + 1
+
 print(count)
