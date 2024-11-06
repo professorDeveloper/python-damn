@@ -69,7 +69,7 @@ for i in list:
     newList.append(i % 3)
 
 # Task12
-x =['olma','olxo`ri','banan','olcha']
-for i in x :
+x = ['olma', 'olxo`ri', 'banan', 'olcha']
+for i in x:
     if i.startswith('o`'):
         print(i)
