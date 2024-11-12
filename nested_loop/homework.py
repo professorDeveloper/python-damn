@@ -22,3 +22,25 @@ for itemList in matrix:
             print("Siz tubson kiritdingiz")
         else:
             print(j)
+
+
+#    int number = 12345;
+#     int count = 0;
+#     while (true) {
+#     int result = number % 10;
+#     number = number / 10;
+#     if (result == 5) {
+#     count++;
+#     break;
+#     }
+#     }
+#
+
+# While Day
+count =0
+numer =125
+while numer != 0 :
+    if numer % 10 == 0:
+        count+=1
+
+print(count)
