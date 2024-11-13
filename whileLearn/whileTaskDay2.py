@@ -103,20 +103,25 @@ if count == 0:
 else:
     print("Raqam list ichida mavjud !")
 
+##EKUB
 # Task 10
-# Ekub ni aniqlash
-# while (b != 0) {
-# int t = b;
-# b = a % b;
-# a = t;
-# }
-a =4
-b=10
-while b!=0:
-    t=b
-    b=a%b
-    a=t
+a = 40
+b = 10
+while b != 0:
+    t = b
+    b = a % b
+    a = t
 
 print(f"Ekub {a} , {b} = {a}")
 
 # EKUK Task 11
+
+# while do
+
+# FL task
+user_num =1
+a =0
+while user_num != 0:
+    user_num = int(input("Enter a number: "))
+    a = a + user_num
+print(f"Siz kiritgan sonlar yig`indisi :{a}")
