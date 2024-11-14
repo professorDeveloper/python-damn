@@ -155,7 +155,7 @@ while not isStop:
     elif num.isdigit() or (num[0] == '-' and num[1:].isdigit()):
         if int(num) % 2 == 0:
             juftSonlar.append(int(num))
-        elif int(num) % 2 != 0:
+        else:
             toqSonlar.append(int(num))
 print(juftSonlar)
 print(toqSonlar)
