@@ -134,27 +134,28 @@ while stop != 'stop':
     stop = input("Matn:")
 
 # Task2
-num = int(input("Son kiriting:"))
+num = 1
 while num != 0:
     num = int(input("Son kiriting:"))
-    if num % 2 == 0:
-        print("Siz juft son kiritdingiz")
-    else:
-        print("Siz toqson kiritdingiz")
+
+    if num != 0:
+        if num % 2 == 0:
+            print("Siz juft son kiritdingiz")
+        else:
+            print("Siz toqson kiritdingiz")
 
 # Tas3
-jusSolar = []
-toSolar = []
+juftSonlar = []
+toqSonlar = []
 isStop = False
 while not isStop:
-    num = input("Son kiriting:")
+    num = input("Raqam kiriting:")
     if num == 'stop':
         isStop = True
-    elif num.isdigit() and num % 2 == 0:
-        jusSolar.append(int(num))
-    elif num.isdigit() and num % 2 != 0:
-        toSolar.append(int(num))
-    else:
-        print("Nomalum Raqam !")
-print(jusSolar)
-print(toSolar)
+    elif num.isdigit() or (num[0] == '-' and num[1:].isdigit()):
+        if int(num) % 2 == 0:
+            juftSonlar.append(int(num))
+        elif int(num) % 2 != 0:
+            toqSonlar.append(int(num))
+print(juftSonlar)
+print(toqSonlar)
