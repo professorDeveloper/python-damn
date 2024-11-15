@@ -126,36 +126,54 @@
 #     a = a + user_num
 # print(f"Siz kiritgan sonlar yig`indisi :{a}")
 #
-# # Task1
-stop = ""
+# # # Task1
+# stop = ""
+#
+# while stop != 'stop':
+#     print("Dasturni to'xtatish uchun stop ni yozing")
+#     stop = input("Matn:")
+#
+# # Task2
+# num = 1
+# while num != 0:
+#     num = int(input("Son kiriting:"))
+#
+#     if num != 0:
+#         if num % 2 == 0:
+#             print("Siz juft son kiritdingiz")
+#         else:
+#             print("Siz toqson kiritdingiz")
+#
+# # Tas3
+# juftSonlar = []
+# toqSonlar = []
+# isStop = False
+# while not isStop:
+#     num = input("Raqam kiriting:")
+#     if num == 'stop':
+#         isStop = True
+#     elif num.isdigit() or (num[0] == '-' and num[1:].isdigit()):
+#         if int(num) % 2 == 0:
+#             juftSonlar.append(int(num))
+#         else:
+#             toqSonlar.append(int(num))
+# print(juftSonlar)
+# print(toqSonlar)
+#
+#
 
-while stop != 'stop':
-    print("Dasturni to'xtatish uchun stop ni yozing")
-    stop = input("Matn:")
 
-# Task2
-num = 1
-while num != 0:
-    num = int(input("Son kiriting:"))
+# Learn Break &&
+for i in range(1, 11):
+    if i == 5:
+        print("5 topildi, sikl to`xtatildi.")
+        break
+    print(i)
 
-    if num != 0:
-        if num % 2 == 0:
-            print("Siz juft son kiritdingiz")
-        else:
-            print("Siz toqson kiritdingiz")
+# Task1
 
-# Tas3
-juftSonlar = []
-toqSonlar = []
-isStop = False
-while not isStop:
-    num = input("Raqam kiriting:")
-    if num == 'stop':
-        isStop = True
-    elif num.isdigit() or (num[0] == '-' and num[1:].isdigit()):
-        if int(num) % 2 == 0:
-            juftSonlar.append(int(num))
-        else:
-            toqSonlar.append(int(num))
-print(juftSonlar)
-print(toqSonlar)
+for i in range(1, 11):
+    if i % 2 != 0:
+        print("5 topildi, sikl to`xtatildi.")
+        break
+    print(i)
