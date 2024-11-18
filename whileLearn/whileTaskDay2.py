@@ -162,18 +162,54 @@
 #
 #
 
+#
+# # Learn Break &&
+# for i in range(1, 11):
+#     if i == 5:
+#         print("5 topildi, sikl to`xtatildi.")
+#         break
+#     print(i)
+#
+# # Task1
+#
+# for i in range(1, 11):
+#     if i % 2 != 0:
+#         print("5 topildi, sikl to`xtatildi.")
+#         break
+#     print(i)
 
-# Learn Break &&
-for i in range(1, 11):
-    if i == 5:
-        print("5 topildi, sikl to`xtatildi.")
-        break
-    print(i)
 
-# Task1
+#EKUB
+# Task 10
+# a = 45
+# b = 63
+# while b != 0:
+#     t = b
+#     b = a % b
+#     a = t
+#
+# print(f"Ekub {a}")
 
-for i in range(1, 11):
-    if i % 2 != 0:
-        print("5 topildi, sikl to`xtatildi.")
-        break
-    print(i)
+#ekub with while
+a=45
+b=53
+i=1
+ekub =1
+while i<=a:
+    if a%i==0 and b%i==0:
+        ekub=ekub+1
+    ekub =i
+    i=i+1
+print(f"Ekub with while ${ekub}")
+
+
+#EkUB with for
+a =int(input("Enter a: "))
+b =int(input("Enter b: "))
+if a>b:
+    a,b=b,a
+ekub=1
+for i in range(1,a+1):
+    if a%i==0 and b%i==0:
+        ekub = ekub
+print(f"EKUB is ${ekub}")
