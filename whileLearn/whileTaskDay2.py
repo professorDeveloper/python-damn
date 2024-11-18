@@ -213,7 +213,7 @@ for i in range(1, a + 1):
         ekub = ekub
 print(f"EKUB is {ekub}")
 
-#Ekuk with for
+#Ekuk with for idk why FOR
 c = b
 ekuk = b
 for _ in range(1, a * b):
