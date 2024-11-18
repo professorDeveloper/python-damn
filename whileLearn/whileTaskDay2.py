@@ -191,35 +191,34 @@
 # print(f"Ekub {a}")
 
 #ekub with while
-a=45
-b=53
-i=1
-ekub =1
-while i<=a:
-    if a%i==0 and b%i==0:
-        ekub=ekub+1
-    ekub =i
-    i=i+1
+a = 45
+b = 53
+i = 1
+ekub = 1
+while i <= a:
+    if a % i == 0 and b % i == 0:
+        ekub = ekub + 1
+    ekub = i
+    i = i + 1
 print(f"Ekub with while {ekub}")
 
-
 #EkUB with for
-a =int(input("Enter a: "))
-b =int(input("Enter b: "))
-if a>b:
-    a,b=b,a
-ekub=1
-for i in range(1,a+1):
-    if a%i==0 and b%i==0:
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
+if a > b:
+    a, b = b, a
+ekub = 1
+for i in range(1, a + 1):
+    if a % i == 0 and b % i == 0:
         ekub = ekub
 print(f"EKUB is {ekub}")
 
 #Ekuk with for
-c=b
-ekuk=b
-for i in range(1,a*b):
-    if c%a==0 and c%b==0:
-        ekuk=c
+c = b
+ekuk = b
+for _ in range(1, a * b):
+    if c % a == 0 and c % b == 0:
+        ekuk = c
         break
-    c=c+1
+    c = c + 1
 print(f"EKUK is {ekuk}")
