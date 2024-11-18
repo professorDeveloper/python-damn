@@ -200,7 +200,7 @@ while i<=a:
         ekub=ekub+1
     ekub =i
     i=i+1
-print(f"Ekub with while ${ekub}")
+print(f"Ekub with while {ekub}")
 
 
 #EkUB with for
@@ -212,4 +212,14 @@ ekub=1
 for i in range(1,a+1):
     if a%i==0 and b%i==0:
         ekub = ekub
-print(f"EKUB is ${ekub}")
+print(f"EKUB is {ekub}")
+
+#Ekuk with for
+c=b
+ekuk=b
+for i in range(1,a*b):
+    if c%a==0 and c%b==0:
+        ekuk=c
+        break
+    c=c+1
+print(f"EKUK is {ekuk}")
