@@ -179,7 +179,7 @@
 #     print(i)
 
 
-#EKUB
+# EKUB
 # Task 10
 # a = 45
 # b = 63
@@ -190,7 +190,7 @@
 #
 # print(f"Ekub {a}")
 
-#ekub with while
+# ekub with while
 a = 45
 b = 53
 i = 1
@@ -202,7 +202,7 @@ while i <= a:
     i = i + 1
 print(f"Ekub with while {ekub}")
 
-#EkUB with for
+# EkUB with for
 a = int(input("Enter a: "))
 b = int(input("Enter b: "))
 if a > b:
@@ -213,7 +213,7 @@ for i in range(1, a + 1):
         ekub = ekub
 print(f"EKUB is {ekub}")
 
-#Ekuk with for idk why FOR
+# Ekuk with for idk why FOR
 c = b
 ekuk = b
 for _ in range(1, a * b):
@@ -222,3 +222,15 @@ for _ in range(1, a * b):
         break
     c = c + 1
 print(f"EKUK is {ekuk}")
+
+# Tub Son
+number = int(input("1 dan Nechigacha bo`lgan chegarani kiriting: "))  # 3
+for j in range(1, number + 1):
+    count = 0  #
+    for i in range(1, j + 1):
+        if j % i == 0:
+            count += 1
+    if count == 2:
+        print(f"{j} -> tub son")
+    else:
+        print(f"{j} -> tub son emas")
