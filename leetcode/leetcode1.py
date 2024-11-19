@@ -1,14 +1,15 @@
 # Reverse Integer
 
-num = int(input("Enter a number: "))
-is_negative = num < 0
-numStr = str(abs(num))
-numList = list(numStr)
-numList.reverse()
-numStr = "".join(numList)
+num = int(input("Raqam kiriting: "))
+isManfiy = num < 0
+numStr = str(abs(num)) # moduledan chiqarish
+numList = list(numStr) # listga ogirish va reverese qilish
+numList.reverse() # Reverse qilish
+numStr = "".join(numList) #stringa o`girish
 
-reversed_num = int(numStr)
-if is_negative:
-    reversed_num = -reversed_num
+natija = int(numStr) # string to inte
+if isManfiy: # manfiyga tekshirish
+    natija = -natija
+    #
 
-print(reversed_num)
+print(natija)

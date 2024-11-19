@@ -50,3 +50,5 @@ i =0
 while i<len(meva):
     print(meva[i])
     i+=1
+
+
