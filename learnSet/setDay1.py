@@ -18,8 +18,14 @@
 # # setdan barcha elementlarni ochirish
 # set1.clear()
 # Union & Intersection | Difference example
-setExample = {1, 2, 3, 4, 5, 6, 6}
-set2 = {3, 4, 5, 6, 8}
-print(setExample.union(set2))
-print(setExample.difference(set2))
-print(setExample.intersection(set2))
+# setExample = {1, 2, 3, 4, 5, 6, 6}
+# set2 = {3, 4, 5, 6, 8}
+# print(setExample.union(set2))
+# print(setExample.difference(set2))
+# print(setExample.intersection(set2))
+
+sonlar = [1, 2, 3, 4, 5, 6, 7, 8, 7, 6, 4, 3, 1, 2]
+
+setSonlar = set(sonlar)
+newList = list(setSonlar)
+print(newList)
