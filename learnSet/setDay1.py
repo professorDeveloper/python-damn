@@ -17,7 +17,7 @@
 #
 # # setdan barcha elementlarni ochirish
 # set1.clear()
-
+# Union & Intersection | Difference example
 setExample = {1, 2, 3, 4, 5, 6, 6}
 set2 = {3, 4, 5, 6, 8}
 print(setExample.union(set2))
