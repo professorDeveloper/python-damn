@@ -24,3 +24,8 @@ dict = {"students": {"azamov": {"name": "Saikou", "age": 18, }, "jack": {"name":
 for e in dict:
     for v in dict[e]:
         print(f"Student Name: {dict[e][v]['name']} | Age: {dict[e][v]['age']}")
+
+# for key in dict:
+# Dict bilan default for yozsak bizga keyni qaytaradi
+# shuning uhcun key,value qilib foydalanishimiz kerak
+#  yani for key,value in dict: kabi
