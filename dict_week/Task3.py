@@ -8,3 +8,4 @@ if data != '-1':
     print(f"{query} ning poytaxti {data} ")
 else:
     print("Kechirasiz bizda bunday davlat yo`q")
+# Task3 Done
