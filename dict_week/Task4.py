@@ -11,7 +11,7 @@ menu = {
     "shashlik": 15000,
     "salat": 10000
 }
-max_foods =int(input("Buyrtmalar Soni:"))
+max_foods = int(input("Buyrtmalar Soni:"))
 buyurtmalar = []
 
 while len(buyurtmalar) < max_foods:
@@ -23,3 +23,6 @@ for taom in buyurtmalar:
         print(f"{taom} - {menu[taom]} so`m")
     else:
         print(f"Kechirasiz, Bizda {taom}  yo`q.")
+
+# I like this project :)
+# Good Task, For Learn
