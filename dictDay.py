@@ -29,3 +29,5 @@ for e in dict:
 # Dict bilan default for yozsak bizga keyni qaytaradi
 # shuning uhcun key,value qilib foydalanishimiz kerak
 #  yani for key,value in dict: kabi
+dict['azamov']={'name':'Saikou','age':18}
+print(dict)
