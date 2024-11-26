@@ -32,4 +32,3 @@ for i in range(0, len(my_list)):
 
 print(f"Sorted List:{my_list}")
 
-# Bubble sort example
