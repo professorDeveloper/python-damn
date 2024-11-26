@@ -1,4 +1,4 @@
-# Learn buble sort
+# Learn bubble sort
 
 my_list = [2, 3, 4, 1, 6, 12, 33, 0, 1]
 # after 1,4
@@ -12,7 +12,7 @@ for i in range(0, len(my_list)):
 
 print(my_list)
 
-# Buuble sort 2-type
+# Bubble sort 2-type
 my_list = [2, 3, 4, 1, 45, 12, 33]
 
 for i in range(len(my_list)):
@@ -23,7 +23,7 @@ for i in range(len(my_list)):
             my_list[j] = temp
 print(my_list)
 
-
+# Type 3-
 my_list = [2, 3, 4, 1, 45, 12, 33]
 for i in range(0, len(my_list)):
     for j in range(0, len(my_list) - i - 1):
