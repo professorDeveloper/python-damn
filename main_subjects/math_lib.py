@@ -39,6 +39,7 @@ while not isOver:
                 print("siz kiritgan son kichikroq")
                 print(f"Urunishlar : {heart}")
         else:
+            print(f"Kompyuter o`ylagan son {randomNum}")
             print("Game Over urunishlar qolmadi")
             isOver = True
     else:
