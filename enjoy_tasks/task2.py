@@ -21,3 +21,4 @@ while True:
         for j in range(n):
             print(parking[i][j], end=" ")
         print()
+
