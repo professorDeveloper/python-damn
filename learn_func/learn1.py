@@ -21,7 +21,17 @@ def thing2() -> str:
     return "Hello World"
 
 
+def son_max(x:int, y:int) ->int:
+    if x > y:
+        return x
+    return y
+
+
 thing()
 a = thing2()
 
 print(a)
+
+## Example3
+b = son_max(20, 10)
+print(b)
