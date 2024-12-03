@@ -45,4 +45,15 @@ def fibonacci(n: int) -> []:
 
 print(fibonacci(10))
 
+
 # Task Do Fibonacci in  using Recursive
+
+def fibonacciWithRecursive(number):
+    if number <= 1:
+        return number
+
+    return fibonacci(number - 1) + fibonacci(number - 2)
+
+
+result = fibonacciWithRecursive(10)
+print(result)
