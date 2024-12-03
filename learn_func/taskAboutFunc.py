@@ -37,7 +37,7 @@ def factorial(n: int) -> int:
 
 
 def fibonacci(n: int) -> []:
-    fibonacciNum = [1, 1]
+    fibonacciNum = [0, 1]
     for i in range(2, n):
         fibonacciNum.append(fibonacciNum[i - 1] + fibonacciNum[i - 2])
     return fibonacciNum
@@ -47,13 +47,16 @@ print(fibonacci(10))
 
 
 # Task Do Fibonacci in  using Recursive
-
+# F(n) = F(n-1) + F(n-2) va F(0) = 0, F(1) = 1
 def fibonacciWithRecursive(number):
-    if number <= 1:
-        return number
-
-    return fibonacci(number - 1) + fibonacci(number - 2)
+    if number == 0:
+        return 0
+    elif number == 1:
+        return 1
+    print(fibonacciWithRecursive(number-1)+fibonacciWithRecursive(number-2))
+    return fibonacciWithRecursive(number - 1) + fibonacciWithRecursive(number - 2)
 
 
 result = fibonacciWithRecursive(10)
 print(result)
+
