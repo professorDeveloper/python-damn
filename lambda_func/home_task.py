@@ -39,7 +39,8 @@ print(bolish(100, 100))
 print(min(120, 100))
 print(plus(100, 10))
 
-# Task 9 I don`t understand that :(
+# Task 9
+# I don`t understand that :(
 
 
 # Task10
