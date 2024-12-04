@@ -21,5 +21,16 @@ def addWithoutPos(*, a, b) -> int:
 
 
 # c = add(b=20, a=10) ## Funksiyani hardoim positional chaqirish
-c = addWithoutPos(20, 10)  ## Funksiyani har doim named qilib chaqirish
-print(c)
+# c = addWithoutPos(a=20, b=10)  ## Funksiyani har doim named qilib chaqirish
+# print(c)
+
+
+def multipleProcess(*, a: int,  b: int) -> int:
+    return a * b
+
+
+print(multipleProcess(a=1, b=10))
+
+
+
+#
