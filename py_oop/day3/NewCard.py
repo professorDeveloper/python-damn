@@ -12,12 +12,15 @@ class NewCard:
         else:
             print("Xato pin kodi")
 
-
     def get_pin_code(self):
         return self.__pin_code
+
+    def getBalance(self):
+        return self.__balance
 
 
 card2 = NewCard(balance=10.0, card_number="8600130987654321", date="12/28", pin_code="4321")
 
 card2.set_pin_code("1234")
+print(f"Balans: {card2.getBalance()}")
 print(f"Pin kodi: {card2.get_pin_code()}")
