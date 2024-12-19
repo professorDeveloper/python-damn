@@ -12,12 +12,15 @@ class NewCard:
         else:
             print("Xato pin kodi")
 
-    def set_balance(self, balance: int):
-        if balance > 0:
-            self.__balance += balance
-            print("Balance muvaffaqiyatli o`zgartirildi !")
+    def set_balance(self, balance: int, pin_code: str):
+        if pin_code == self.__pin_code:
+            if balance > 0:
+                self.__balance += balance
+                print("Balance muvaffaqiyatli o`zgartirildi !")
+            else:
+                print("Xato qiymat balance")
         else:
-            print("Xato qiymat balance")
+            print("Pinkod xato")
 
     def get_pin_code(self):
         return self.__pin_code
@@ -30,5 +33,5 @@ card2 = NewCard(balance=10.0, card_number="8600130987654321", date="12/28", pin_
 
 card2.set_pin_code("1234")
 print(f"Pin kodi: {card2.get_pin_code()}")
-card2.set_balance(1000)
-print(f"Balance: {card2.get_balance()}")
+pin_code = input("Pin kodni kiriting")
+card2.set_balance(1000, pin_code=pin_code)
