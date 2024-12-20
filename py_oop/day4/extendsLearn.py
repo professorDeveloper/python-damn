@@ -25,6 +25,16 @@ class Child(Person):
         print(f"{self.name} is going to {self.school}")
 
 
+class Doctor(Person):
+    def __init__(self, name, age, degree, salary):
+        super().__init__(name, age)
+        self.degree = degree
+        self.salary = salary
+
+    def work(self):
+        print(f"{self.name} is working")
+
+
 person1 = Person("Azamov", 18)
 print(person1.name)
 print(person1.age)
@@ -34,3 +44,7 @@ child1.go_to_school()
 print(child1.name)
 print(child1.age)
 print(child1.school)
+
+
+doctor =Doctor(name="Azamov", age=18, degree="Dentist", salary=10000)
+doctor.work()
