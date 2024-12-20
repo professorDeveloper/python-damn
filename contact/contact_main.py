@@ -89,9 +89,11 @@ uz = {
     "new_address": "Yangi yashash manzil: ",
     "current_name": "Hozirgi ism: ",
     "new_name": "Yangi ism: ",
-
-    "invalid_id": "Xato id"
-
+    "uz_lang":"1.O'zbekcha",
+    "eng_lang":"2.English",
+    "invalid_id": "Xato id",
+    "choose_lang": "Tilni tanlang: ",
+    "exit": "Chiqildi !",
 }
 eng = {
     "1": "1.Add contact",
@@ -101,6 +103,9 @@ eng = {
     "5": "5.Contact list",
     "6": "6.Change language",
     "7": "7.Exit",
+    "uz_lang": "1.Uzbek",
+    "eng_lang": "2.English",
+    "choose_lang": "Choose language: ",
     "choice": "Choose section: ",
     "input_name": "Enter name: ",
     "input_phone": "Enter phone number (+998XXXXXXXXX): ",
@@ -110,6 +115,7 @@ eng = {
     "invalid_email": "Invalid email, enter in the correct format",
     "invalid_choice": "Invalid choice",
     "success_add": "Contact added.",
+    "exit": "Exited !",
     "phone": "Phone: ",
     "name": "Name: ",
     "email": "Email: ",
@@ -189,7 +195,15 @@ def main_page():
         elif choice == "5":
             pass
         elif choice == "6":
-            pass
+            print(f"{lang['uz_lang']}")
+            print(f"{lang['eng_lang']}")
+            newLang = input(f"{lang['choose_lang']}")
+            if newLang == "1":
+                lang = uz
+            elif newLang == "2":
+                lang = eng
+            else:
+                print_colored(f"{lang['invalid_choice']}\n", RED)
         elif choice == "7":
             break
         else:
