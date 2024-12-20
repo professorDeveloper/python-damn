@@ -20,13 +20,13 @@ class Contact:
 
 contactList = []
 uz = {
-    "1": "Contact qo`shish",
-    "2": "Contact o`zgartirish",
-    "3": "Contact o`chirish",
-    "4": "Contactni qidirish",
-    "5": "Contactni ro`yxatini ko`rish",
-    "6": "Tilni o`zgartirish",
-    "7": "Chiqish",
+    "1": "1.Contact qo`shish",
+    "2": "2.Contact o`zgartirish",
+    "3": "3.Contact o`chirish",
+    "4": "4.Contactni qidirish",
+    "5": "5.Contactni ro`yxatini ko`rish",
+    "6": "6.Tilni o`zgartirish",
+    "7": "7.Chiqish",
     "choice": "Bo`limni tanlang: ",
     "input_name": "Ismni kiriting: ",
     "input_phone": "Telefon raqamni kiriting (+998XXXXXXXXX): ",
@@ -37,13 +37,13 @@ uz = {
     "success_add": "Contact qo`shildi.",
 }
 eng = {
-    "1": "Add contact",
-    "2": "Edit contact",
-    "3": "Delete contact",
-    "4": "Search contact",
-    "5": "Contact list",
-    "6": "Change language",
-    "7": "Exit",
+    "1": "1.Add contact",
+    "2": "2.Edit contact",
+    "3": "3.Delete contact",
+    "4": "4.Search contact",
+    "5": "5.Contact list",
+    "6": "6.Change language",
+    "7": "7.Exit",
     "choice": "Choose section: ",
     "input_name": "Enter name: ",
     "input_phone": "Enter phone number (+998XXXXXXXXX): ",
@@ -108,3 +108,6 @@ def main_page():
             pass
         elif choice == "7":
             break
+
+
+main_page()
