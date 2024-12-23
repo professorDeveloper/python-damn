@@ -149,9 +149,9 @@ def deleteContactById(id: int):
         choice = input(lang['sure_delete']+": ")
         if choice == 'y':
             contactList.remove(contact)
-            print_colored(lang['contact_deleted'], GREEN)
+            print_colored(lang['contact_deleted']+"\n", GREEN)
         else:
-            print_colored(lang['cancelled'], RED)
+            print_colored(lang['cancelled']+"\n", RED)
     else:
         print(lang['invalid_id'])
 
