@@ -184,18 +184,17 @@ def addContact():
 
 
 def searchContact(query: str):
-    isFound = False
+    results =[]
     contact = None
     if len(contactList) != -1:
         for contact in contactList:
             if query.lower() in contact.name.lower() or query.lower() in contact.phone.lower():
-                isFound = True
-                contact = contact
-                break
-        if isFound:
-            showContact(contact)
+                results.append(contact)
+        if len(results) !=0:
+            showContacts(results)
         else:
             print_colored(lang['not_found'], RED)
+        del results
     else:
         print_colored(lang['contact_empty'], RED)
 
