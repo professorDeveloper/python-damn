@@ -1,4 +1,3 @@
-
 class SuperClass1:
 
     def __init__(self, atribut1):
@@ -20,8 +19,8 @@ class SuperClass2:
 class SubClass(SuperClass1, SuperClass2):
 
     def __init__(self, atribut1, atribut2):
-        SuperClass1.__init__(self, atribut1)
-        SuperClass2.__init__(self, atribut2)
+        super().__init__(atribut1)
+        super().__init__(atribut2)
 
     def setAtribut1(self, atribut1):
         print("Atribut1 working")
