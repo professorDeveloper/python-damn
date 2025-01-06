@@ -12,6 +12,7 @@ class Card:
 
     @property
     def balance(self):
+        ##
         return self.__balance
 
     @balance.setter
