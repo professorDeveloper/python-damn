@@ -27,7 +27,6 @@ uz = {
     "not_found": "Contact Topilmadi !",
     "contact_deleted": "Contact o`chirildi !",
     "input_email": "Emailni kiriting: ",
-    "input_address": "Yashash manzilni kiriting: ",
     "search_input": "Qidirmoqchi bo`lgan Contact nomi yoki telefon raqamini kiriting:",
     "choice": "Bo`limni tanlang: ",
     "input_name": "Ismni kiriting: ",
