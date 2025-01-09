@@ -1,0 +1,35 @@
+# Car Number Sales app
+# First Page -> Sign in, Sign Up,Language (uz,eng)
+# Clean ig we use global func and types,
+# User Role : User,Admin
+# Number (id,number,price,status,comments= [],created_at)})
+# Comment (id,user_id,comment,created_at)
+
+# ######################### User Page ####################
+# User Page ->
+# Number List
+# Buy Number
+# Filter Numbers
+# My Numbers
+# My Profile
+# Edit Profile
+# Search Number
+# Favorite Number
+# Delete Account
+# Contact Admin  // Soon
+# Exit Account
+
+# ######################### Admin Page ####################
+# Add Number
+# Edit Number
+# Numbers Sold
+# All Numbers
+# Most Active User
+# Search Number
+# Statistic Number
+# All Numbers Price
+# Message List // Soon
+# User List
+# Remove Number
+# Ban User !
+#
