@@ -33,5 +33,18 @@
 #
 #
 #
-# #
+# ##  Istalgancha sonlar qabul qilib ularning ko`paytmasini hisoblab beruvchi funksiya yozing
+
+def sonKopyatirish(*args):
+    sum =1
+    for item in args: # 2,3
+        sum*=item # 2 ,6
+    print(sum)
+
+sonKopyatirish(
+ 2,3,4
+)
+
+
+
 
