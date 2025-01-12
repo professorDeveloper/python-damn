@@ -288,14 +288,29 @@ products = [
     {"id": 2, "product_name": "Smartphone", "product_price": "500", "product_date": "12/16/2024 11:25:32",
      "sold_count": 0, 'comments': []},
     {"id": 3, "product_name": "Tablet",
-     "product_price": "300", "product_date": "12/17/2024 12:40:50", "sold_count": 0, "comments": []}
+     "product_price": "300", "product_date": "12/17/2024 12:40:50", "sold_count": 0, "comments": [
+        {
+            "id": 1,
+            "comment": "This is a comment",
+            "user_id": 1
+        }
+    ]}
 ]
 
 admin_info = {
     "admin_login": "superadmin",
     "admin_password": "1234",
     'messages': [
-
+        {
+            "id": 1,
+            "message": "Hello, how can I help you?",
+            "user_id": 1
+        },
+        {
+            "id": 2,
+            "message": "I want to buy a product.",
+            "user_id": 1
+        }
     ],
     "role": "admin"
 }

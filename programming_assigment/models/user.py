@@ -12,9 +12,13 @@ class User:
         self.password = password
         self.name = name
 
-    @@property
+    @property
     def getChatList(self):
         return self.__chatList
+
+    @getChatList.setter
+    def updateChatList(self, chatList):
+        self.__chatList = chatList
 
     @property
     def getMyCarNumbers(self):
