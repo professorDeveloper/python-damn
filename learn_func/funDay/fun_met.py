@@ -48,3 +48,6 @@
 #
 #
 #
+# # 1-son =10 , 2-son =20, 3-son=30
+# if son1+son2 > son2+son3 >son3+son1:
+
